@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:toystorey/component/HomeScreenComponent/Dashboard1ProductComponent.dart';
-import 'package:toystorey/models/ProductResponse.dart';
-import 'package:toystorey/network/rest_apis.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/colors.dart';
+import 'package:chandran_steels/component/HomeScreenComponent/Dashboard1ProductComponent.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
+import 'package:chandran_steels/network/rest_apis.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/colors.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../app_localizations.dart';

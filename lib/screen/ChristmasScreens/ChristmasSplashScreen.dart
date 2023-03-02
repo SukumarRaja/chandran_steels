@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:toystorey/screen/DashBoardScreen.dart';
-import 'package:toystorey/screen/ProductDetail/ProductDetailScreen1.dart';
-import 'package:toystorey/utils/colors.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/screen/DashBoardScreen.dart';
+import 'package:chandran_steels/screen/ProductDetail/ProductDetailScreen1.dart';
+import 'package:chandran_steels/utils/colors.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 import '../../utils/constants.dart';
 import 'ChristmasWalkThroughScreen.dart';

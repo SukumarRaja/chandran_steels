@@ -5,8 +5,8 @@ import 'dart:io';
 import 'dart:math';
 import 'package:crypto/crypto.dart' as crypto;
 import 'package:http/http.dart' as http;
-import 'package:toystorey/utils/constants.dart';
-import 'package:toystorey/utils/query_string.dart';
+import 'package:chandran_steels/utils/constants.dart';
+import 'package:chandran_steels/utils/query_string.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class MightyAPI {

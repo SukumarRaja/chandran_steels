@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:toystorey/models/ShippingMethodResponse.dart';
-import 'package:toystorey/screen/EditProfileScreen.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/models/ShippingMethodResponse.dart';
+import 'package:chandran_steels/screen/EditProfileScreen.dart';
+import 'package:chandran_steels/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../app_localizations.dart';

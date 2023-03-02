@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class LoginService {

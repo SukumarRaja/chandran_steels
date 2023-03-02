@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/utils/constants.dart';
 
 bool isSuccessful(int code) {
   return code >= 200 && code <= 206;

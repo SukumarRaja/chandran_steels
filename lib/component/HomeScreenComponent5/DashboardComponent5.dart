@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:toystorey/models/ProductResponse.dart';
-import 'package:toystorey/utils/colors.dart';
-import 'package:toystorey/utils/constants.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
+import 'package:chandran_steels/utils/colors.dart';
+import 'package:chandran_steels/utils/constants.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import 'DashBoard5Product.dart';

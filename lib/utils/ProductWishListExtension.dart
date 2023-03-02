@@ -1,10 +1,10 @@
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:toystorey/models/ProductResponse.dart';
-import 'package:toystorey/screen/ProductDetail/ProductDetailScreen1.dart';
-import 'package:toystorey/screen/ProductDetail/ProductDetailScreen2.dart';
-import 'package:toystorey/screen/ProductDetail/ProductDetailScreen3.dart';
-import 'package:toystorey/screen/SignInScreen.dart';
-import 'package:toystorey/utils/colors.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
+import 'package:chandran_steels/screen/ProductDetail/ProductDetailScreen1.dart';
+import 'package:chandran_steels/screen/ProductDetail/ProductDetailScreen2.dart';
+import 'package:chandran_steels/screen/ProductDetail/ProductDetailScreen3.dart';
+import 'package:chandran_steels/screen/SignInScreen.dart';
+import 'package:chandran_steels/utils/colors.dart';
 import 'package:nb_utils/nb_utils.dart';
 import '../main.dart';
 import 'common.dart';

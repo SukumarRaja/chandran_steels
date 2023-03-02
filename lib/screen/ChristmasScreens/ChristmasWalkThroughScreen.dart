@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/models/WalkModel.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/colors.dart';
+import 'package:chandran_steels/models/WalkModel.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/colors.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../DashBoardScreen.dart';

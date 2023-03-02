@@ -1,9 +1,10 @@
 import 'package:nb_utils/nb_utils.dart';
 
-const AppName = 'Toys Storey';
+const AppName = 'Chandran Steels';
 
 ///OneSignalAppID
-const mOneSignalAPPKey = '5bee3260-3cf0-4a6e-8339-73a7a1858743';
+// const mOneSignalAPPKey = '5bee3260-3cf0-4a6e-8339-73a7a1858743';
+const mOneSignalAPPKey = '91cca190-d127-461f-be7f-8d275695ff8b';
 
 ///ADMob Id
 const bannerAdIdForAndroid = "ADD_BANNER_ID_ANDROID";
@@ -13,13 +14,13 @@ const interstitialAdIdForIos = "ADD_INTERSTITIAL_ID_IOS";
 
 /// PAYMENT METHOD ENABLE/DISABLE
 const IS_STRIPE = false;
-const IS_RAZORPAY = true;
+const IS_RAZORPAY = false;
 const IS_PAY_STACK = false;
 const IS_FLUTTER_WAVE = false;
 const IS_PAY_FROM_WALLET = false;
 
 ///RazorPay
-const razorKey = "o7WNKio459gltJk6daFmjZAB";
+const razorKey = "";
 
 ///StripPayment
 const stripPaymentKey = 'ADD_STRIPE_PAYMENT_KEY';

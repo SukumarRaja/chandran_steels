@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/screen/HomeScreen/HomeScreen1.dart';
-import 'package:toystorey/screen/HomeScreen/HomeScreen2.dart';
-import 'package:toystorey/screen/HomeScreen/HomeScreen3.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/screen/HomeScreen/HomeScreen1.dart';
+import 'package:chandran_steels/screen/HomeScreen/HomeScreen2.dart';
+import 'package:chandran_steels/screen/HomeScreen/HomeScreen3.dart';
+import 'package:chandran_steels/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class MyHomeScreen extends StatefulWidget {

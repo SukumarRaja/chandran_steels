@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/main.dart';
-import 'package:toystorey/models/ProductResponse.dart';
+import 'package:chandran_steels/main.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 

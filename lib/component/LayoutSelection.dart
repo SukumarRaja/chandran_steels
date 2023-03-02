@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:toystorey/app_localizations.dart';
-import 'package:toystorey/main.dart';
-import 'package:toystorey/models/LayoutTypeSelectModel.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/app_localizations.dart';
+import 'package:chandran_steels/main.dart';
+import 'package:chandran_steels/models/LayoutTypeSelectModel.dart';
+import 'package:chandran_steels/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class LayoutSelection extends StatefulWidget {

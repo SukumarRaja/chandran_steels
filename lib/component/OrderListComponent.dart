@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/models/OrderModel.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/colors.dart';
+import 'package:chandran_steels/models/OrderModel.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/colors.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../app_localizations.dart';

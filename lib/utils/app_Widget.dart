@@ -4,13 +4,13 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:toystorey/main.dart';
-import 'package:toystorey/models/ProductResponse.dart';
-import 'package:toystorey/models/WalkModel.dart';
-import 'package:toystorey/utils/FestivalProgress.dart';
-import 'package:toystorey/utils/colors.dart';
-import 'package:toystorey/utils/constants.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/main.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
+import 'package:chandran_steels/models/WalkModel.dart';
+import 'package:chandran_steels/utils/FestivalProgress.dart';
+import 'package:chandran_steels/utils/colors.dart';
+import 'package:chandran_steels/utils/constants.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:photo_view/photo_view.dart';
 import 'common.dart';
@@ -445,7 +445,7 @@ void openPhotoViewer(context, ImageProvider imageProvider) {
 
 List<WalkModel> getWalkData() {
   List<WalkModel> featured = [];
-  featured.add(WalkModel.info(ic_halloween_walk1, "Welcome to Toys Storey", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."));
+  featured.add(WalkModel.info(ic_halloween_walk1, "Welcome to Chandran Steels", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."));
   featured.add(WalkModel.info(ic_halloween_walk2, "Checkout", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."));
   featured.add(WalkModel.info(ic_halloween_walk3, "Get Your Order", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."));
 
@@ -454,7 +454,7 @@ List<WalkModel> getWalkData() {
 
 List<WalkModel> getChristmasWalkData() {
   List<WalkModel> featured = [];
-  featured.add(WalkModel.info(ic_christmas_walk1, "Welcome to Toys Storey", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."));
+  featured.add(WalkModel.info(ic_christmas_walk1, "Welcome to Chandran Steels", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."));
   featured.add(WalkModel.info(ic_christmas_walk2, "Checkout", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."));
   featured.add(WalkModel.info(ic_christmas_walk3, "Get Your Order", "Lorem Ipsum is simply dummy text of the printing and typesetting industry."));
 

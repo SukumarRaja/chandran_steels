@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:toystorey/utils/common.dart';
+import 'package:chandran_steels/utils/common.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:video_player/video_player.dart';
 

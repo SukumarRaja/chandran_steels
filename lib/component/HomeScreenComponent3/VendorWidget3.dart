@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:toystorey/models/ProductResponse.dart';
-import 'package:toystorey/screen/VendorListScreen.dart';
-import 'package:toystorey/screen/VendorProfileScreen.dart';
-import 'package:toystorey/utils/dashed_ract.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
+import 'package:chandran_steels/screen/VendorListScreen.dart';
+import 'package:chandran_steels/screen/VendorProfileScreen.dart';
+import 'package:chandran_steels/utils/dashed_ract.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../main.dart';

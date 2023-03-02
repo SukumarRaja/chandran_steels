@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/models/WishListResponse.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/colors.dart';
-import 'package:toystorey/utils/common.dart';
+import 'package:chandran_steels/models/WishListResponse.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/colors.dart';
+import 'package:chandran_steels/utils/common.dart';
 import 'package:nb_utils/nb_utils.dart';
 import '../app_localizations.dart';
 import '../main.dart';

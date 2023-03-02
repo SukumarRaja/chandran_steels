@@ -3,22 +3,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/intl.dart';
-import 'package:toystorey/component/HtmlWidget.dart';
-import 'package:toystorey/component/VideoPlayDialog.dart';
-import 'package:toystorey/main.dart';
-import 'package:toystorey/models/ProductDetailResponse.dart';
-import 'package:toystorey/models/ProductReviewModel.dart';
-import 'package:toystorey/network/rest_apis.dart';
-import 'package:toystorey/screen/ProductDetail/ProductDetailScreen2.dart';
-import 'package:toystorey/screen/ViewAllScreen.dart';
-import 'package:toystorey/screen/ZoomImageScreen.dart';
-import 'package:toystorey/utils/AppBarWidget.dart';
-import 'package:toystorey/utils/Countdown.dart';
-import 'package:toystorey/utils/admob_utils.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/colors.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/component/HtmlWidget.dart';
+import 'package:chandran_steels/component/VideoPlayDialog.dart';
+import 'package:chandran_steels/main.dart';
+import 'package:chandran_steels/models/ProductDetailResponse.dart';
+import 'package:chandran_steels/models/ProductReviewModel.dart';
+import 'package:chandran_steels/network/rest_apis.dart';
+import 'package:chandran_steels/screen/ProductDetail/ProductDetailScreen2.dart';
+import 'package:chandran_steels/screen/ViewAllScreen.dart';
+import 'package:chandran_steels/screen/ZoomImageScreen.dart';
+import 'package:chandran_steels/utils/AppBarWidget.dart';
+import 'package:chandran_steels/utils/Countdown.dart';
+import 'package:chandran_steels/utils/admob_utils.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/colors.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
 import '../../app_localizations.dart';
 import '../ReviewScreen.dart';
@@ -763,7 +763,7 @@ class _ProductDetailScreen1State extends State<ProductDetailScreen1> {
                 )
               : Row(
                   children: [
-                    PriceWidget(price: double.parse(productDetailNew!.price.toString()).toStringAsFixed(2), size: 18),
+                    PriceWidget(price: productDetailNew!.price.toString(), size: 18),
                   ],
                 )
           : SizedBox();

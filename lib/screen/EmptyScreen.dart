@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:toystorey/app_localizations.dart';
+import 'package:chandran_steels/app_localizations.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class EmptyScreen extends StatefulWidget {

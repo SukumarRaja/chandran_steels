@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/models/ProductResponse.dart';
-import 'package:toystorey/utils/ProductWishListExtension.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/common.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
+import 'package:chandran_steels/utils/ProductWishListExtension.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/common.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class Dashboard1ProductComponent extends StatefulWidget {
@@ -72,7 +72,7 @@ class Dashboard1ProductComponentState extends State<Dashboard1ProductComponent> 
                           : double.parse(widget.mProductModel!.price.validate()).toStringAsFixed(2)
                       : widget.mProductModel!.regularPrice!.isNotEmpty
                           ? double.parse(widget.mProductModel!.regularPrice.validate().toString()).toStringAsFixed(2)
-                          : double.parse(widget.mProductModel!.price.validate().toString()).toStringAsFixed(2),
+                          : widget.mProductModel!.price.validate().toString(),
                   size: 14,
                 ),
                 4.width,

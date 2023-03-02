@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/models/ProductResponse.dart';
-import 'package:toystorey/screen/VendorProfileScreen.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/colors.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
+import 'package:chandran_steels/screen/VendorProfileScreen.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/colors.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../../app_localizations.dart';

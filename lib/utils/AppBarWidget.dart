@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/main.dart';
-import 'package:toystorey/utils/colors.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/main.dart';
+import 'package:chandran_steels/utils/colors.dart';
+import 'package:chandran_steels/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class AppBarWidget extends StatelessWidget {

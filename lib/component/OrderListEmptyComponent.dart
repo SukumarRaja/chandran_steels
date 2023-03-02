@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/screen/DashBoardScreen.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/screen/DashBoardScreen.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../app_localizations.dart';

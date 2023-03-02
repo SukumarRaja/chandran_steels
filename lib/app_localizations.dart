@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:toystorey/models/LanguageModel.dart';
+import 'package:chandran_steels/models/LanguageModel.dart';
 
 class AppLocalizations {
   final Locale locale;

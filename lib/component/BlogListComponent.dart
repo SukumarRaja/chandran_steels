@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/models/BlogListResponse.dart';
-import 'package:toystorey/screen/BlogDescriptionScreen.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/models/BlogListResponse.dart';
+import 'package:chandran_steels/screen/BlogDescriptionScreen.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 // ignore: must_be_immutable

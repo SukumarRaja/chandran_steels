@@ -85,14 +85,14 @@
     "layout": "layout2"
   },
   "appsetup": {
-    "appName": "toystorey",
-    "primaryColor": "#ed3f00",
+    "appName": "chandran_steels",
+    "primaryColor": "#621708",
     "secondaryColor": "#fff4f6",
     "backgroundColor": "#FCFDFD",
     "textPrimaryColor": "#212121",
     "textSecondaryColor": "#757575",
-    "consumerKey": "ck_77a89caecdfc0b4104c558eaad39d423837d7374",
-    "consumerSecret": "cs_673c939573e0c2b0f8115c651015aac4f4449fee",
-    "appUrl": "https://toystorey.in/wp-json/"
+    "consumerKey": "ck_446b6e57befc893814fee93aed65457842114c49",
+    "consumerSecret": "cs_5f8b8a7913a78a06233300c8df9c79b7e4987a5d",
+    "appUrl": "https://chandransteelsonline.com/wp-json/"
   }
 }

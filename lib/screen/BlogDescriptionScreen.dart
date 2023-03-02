@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:toystorey/models/BlogResponse.dart';
-import 'package:toystorey/network/rest_apis.dart';
-import 'package:toystorey/screen/WebViewExternalProductScreen.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/models/BlogResponse.dart';
+import 'package:chandran_steels/network/rest_apis.dart';
+import 'package:chandran_steels/screen/WebViewExternalProductScreen.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../main.dart';

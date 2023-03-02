@@ -2,25 +2,25 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:toystorey/app_localizations.dart';
-import 'package:toystorey/component/ThemeSelectionDialog.dart';
-import 'package:toystorey/main.dart';
-import 'package:toystorey/models/LanguageModel.dart';
-import 'package:toystorey/screen/AboutUsScreen.dart';
-import 'package:toystorey/screen/TeraWalletScreen.dart';
-import 'package:toystorey/utils/AppBarWidget.dart';
-import 'package:toystorey/screen/BlogListScreen.dart';
-import 'package:toystorey/screen/ChangePasswordScreen.dart';
-import 'package:toystorey/screen/ChooseDashboardPageVariant.dart';
-import 'package:toystorey/screen/ChooseDemo.dart';
-import 'package:toystorey/screen/DashBoardScreen.dart';
-import 'package:toystorey/screen/EditProfileScreen.dart';
-import 'package:toystorey/screen/OrderListScreen.dart';
-import 'package:toystorey/screen/SignInScreen.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/constants.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/app_localizations.dart';
+import 'package:chandran_steels/component/ThemeSelectionDialog.dart';
+import 'package:chandran_steels/main.dart';
+import 'package:chandran_steels/models/LanguageModel.dart';
+import 'package:chandran_steels/screen/AboutUsScreen.dart';
+import 'package:chandran_steels/screen/TeraWalletScreen.dart';
+import 'package:chandran_steels/utils/AppBarWidget.dart';
+import 'package:chandran_steels/screen/BlogListScreen.dart';
+import 'package:chandran_steels/screen/ChangePasswordScreen.dart';
+import 'package:chandran_steels/screen/ChooseDashboardPageVariant.dart';
+import 'package:chandran_steels/screen/ChooseDemo.dart';
+import 'package:chandran_steels/screen/DashBoardScreen.dart';
+import 'package:chandran_steels/screen/EditProfileScreen.dart';
+import 'package:chandran_steels/screen/OrderListScreen.dart';
+import 'package:chandran_steels/screen/SignInScreen.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/constants.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import 'ChooseProductDetailVariant.dart';
@@ -219,12 +219,12 @@ class ProfileScreenState extends State<ProfileScreen> {
                     .visible(enableDashboardVariant == true),
                 mSideMenu(appLocalization.translate('lbl_terms_conditions'),
                     Icons.assignment_outlined, () {
-                  redirectUrl("https://toystorey.in/terms-and-condition/");
+                  redirectUrl("https://chandransteelsonline.com/terms-and-conditions/");
                 }),
                 Divider(height: 0).paddingOnly(left: 16, right: 16),
                 mSideMenu(appLocalization.translate('llb_privacy_policy'),
                     Icons.privacy_tip_outlined, () {
-                  redirectUrl("https://toystorey.in/privacy-policy-2/");
+                  redirectUrl("https://chandransteelsonline.com/privacy-policy/");
                 }),
                 Divider(height: 0).paddingOnly(left: 16, right: 16),
                 SettingItemWidget(
@@ -327,26 +327,26 @@ class ProfileScreenState extends State<ProfileScreen> {
                   ChooseDemo().launch(context);
                 }).visible(enableMultiDemo == true),
                 16.height,
-
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      "Powered by",
-                      style: boldTextStyle(
-                          color:
-                              Theme.of(context).textTheme.displaySmall!.color,
-                          size: 14),
-                    ),
-                    SizedBox(width: 15),
-                    Image.asset(
-                      "images/toystorey/logo.webp",
-                      width: MediaQuery.of(context).size.width * 0.3,
-                    )
-                  ],
-                ),
-
-                16.height,
+                //
+                // Row(
+                //   mainAxisAlignment: MainAxisAlignment.center,
+                //   children: [
+                //     Text(
+                //       "Powered by",
+                //       style: boldTextStyle(
+                //           color:
+                //               Theme.of(context).textTheme.displaySmall!.color,
+                //           size: 14),
+                //     ),
+                //     SizedBox(width: 15),
+                //     Image.asset(
+                //       "images/chandran_steels/logo.webp",
+                //       width: MediaQuery.of(context).size.width * 0.3,
+                //     )
+                //   ],
+                // ),
+                //
+                // 16.height,
               ],
             ),
           ),

@@ -14,21 +14,21 @@ import 'package:flutterwave_standard/view/flutterwave_style.dart';
 import 'package:flutterwave_standard/view/view_utils.dart';
 import 'package:http/http.dart';
 import 'package:intl/intl.dart';
-import 'package:toystorey/main.dart';
-import 'package:toystorey/models/CartModel.dart';
-import 'package:toystorey/models/Coupon_lines.dart';
-import 'package:toystorey/models/CreateOrderRequestModel.dart';
-import 'package:toystorey/models/CustomerResponse.dart';
-import 'package:toystorey/models/OrderModel.dart';
-import 'package:toystorey/models/PaymentModel.dart';
-import 'package:toystorey/models/ShippingMethodResponse.dart';
-import 'package:toystorey/network/rest_apis.dart';
-import 'package:toystorey/utils/AppBarWidget.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/colors.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/constants.dart';
-import 'package:toystorey/utils/shared_pref.dart';
+import 'package:chandran_steels/main.dart';
+import 'package:chandran_steels/models/CartModel.dart';
+import 'package:chandran_steels/models/Coupon_lines.dart';
+import 'package:chandran_steels/models/CreateOrderRequestModel.dart';
+import 'package:chandran_steels/models/CustomerResponse.dart';
+import 'package:chandran_steels/models/OrderModel.dart';
+import 'package:chandran_steels/models/PaymentModel.dart';
+import 'package:chandran_steels/models/ShippingMethodResponse.dart';
+import 'package:chandran_steels/network/rest_apis.dart';
+import 'package:chandran_steels/utils/AppBarWidget.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/colors.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/constants.dart';
+import 'package:chandran_steels/utils/shared_pref.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 import '../app_localizations.dart';
@@ -718,7 +718,7 @@ class OrderSummaryScreenState extends State<OrderSummaryScreen> implements Trans
     var options = {
       'key': razorKey,
       'amount': mAmount * 100,
-      'name': 'Toys Storey',
+      'name': 'Chandran Steels',
       'theme.color': '#4358DD',
       'description': 'Woocommerce Store',
       'image': 'https://razorpay.com/assets/razorpay-glyph.svg',

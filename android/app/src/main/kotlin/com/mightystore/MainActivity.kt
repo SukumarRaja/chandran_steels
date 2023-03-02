@@ -1,4 +1,4 @@
-package com.toystorey.hashseven
+package com.chandran_steels
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.FlutterFragmentActivity

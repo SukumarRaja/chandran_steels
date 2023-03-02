@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:toystorey/models/WishListResponse.dart';
-import 'package:toystorey/network/rest_apis.dart';
-import 'package:toystorey/utils/constants.dart';
-import 'package:toystorey/utils/shared_pref.dart';
+import 'package:chandran_steels/models/WishListResponse.dart';
+import 'package:chandran_steels/network/rest_apis.dart';
+import 'package:chandran_steels/utils/constants.dart';
+import 'package:chandran_steels/utils/shared_pref.dart';
 import 'package:mobx/mobx.dart';
 import 'package:nb_utils/nb_utils.dart';
 

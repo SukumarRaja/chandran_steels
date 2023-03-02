@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=C:\src\3.7.1"
-export "FLUTTER_APPLICATION_PATH=C:\Users\USER\Downloads\toystorey-160\codecanyon-30218611-toystorey-woocommerce-universal-flutter-app-for-ecommerce-app\toystoreySourceCode\FlutterCode\single"
+export "FLUTTER_APPLICATION_PATH=C:\Users\USER\Downloads\chandran_steels-160\codecanyon-30218611-chandran_steels-woocommerce-universal-flutter-app-for-ecommerce-app\chandran_steelsSourceCode\FlutterCode\single"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"

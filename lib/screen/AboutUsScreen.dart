@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:toystorey/main.dart';
-import 'package:toystorey/utils/admob_utils.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/constants.dart';
-import 'package:toystorey/utils/images.dart';
+import 'package:chandran_steels/main.dart';
+import 'package:chandran_steels/utils/admob_utils.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/constants.dart';
+import 'package:chandran_steels/utils/images.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -103,8 +103,7 @@ class AboutUsScreenState extends State<AboutUsScreen> {
                     children: <Widget>[
                       InkWell(
                         onTap: () async {
-                          redirectUrl(
-                              'https://wa.me/918072085685');
+                          redirectUrl('https://wa.me/919944022214');
                         },
                         child: Container(
                           margin: EdgeInsets.only(left: 16),
@@ -113,7 +112,8 @@ class AboutUsScreenState extends State<AboutUsScreen> {
                         ),
                       ),
                       InkWell(
-                        onTap: () => redirectUrl("https://www.instagram.com/toy_storeis/"),
+                        onTap: () => redirectUrl(
+                            "https://www.instagram.com/chandran_steels/"),
                         child: Container(
                           padding: EdgeInsets.all(10),
                           child: Image.asset(ic_Inst, height: 35, width: 35),
@@ -127,15 +127,15 @@ class AboutUsScreenState extends State<AboutUsScreen> {
                       //   ),
                       // ),
                       InkWell(
-                        onTap: () => redirectUrl("https://www.facebook.com/Toy-Storey-107475691167727/"),
+                        onTap: () => redirectUrl(
+                            "https://www.facebook.com/ChandranSteelscbe"),
                         child: Container(
                           padding: EdgeInsets.all(10),
                           child: Image.asset(ic_Fb, height: 35, width: 35),
                         ),
                       ),
                       InkWell(
-                        onTap: () =>
-                            redirectUrl('tel:8072085685'),
+                        onTap: () => redirectUrl('tel:9944022214'),
                         child: Container(
                           margin: EdgeInsets.only(right: 16),
                           padding: EdgeInsets.all(10),
@@ -168,10 +168,12 @@ class AboutUsScreenState extends State<AboutUsScreen> {
                       size: 14),
                 ),
                 SizedBox(width: 15),
-                Image.asset(
-                  "images/toystorey/logo.webp",
-                  width: MediaQuery.of(context).size.width * 0.3,
-                )
+                Text(
+                  "Chandran Steels",
+                  style: boldTextStyle(
+                      color: Theme.of(context).textTheme.titleSmall!.color,
+                      size: 14),
+                ),
               ],
             ),
 

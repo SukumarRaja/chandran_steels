@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:toystorey/screen/SignInScreen.dart';
-import 'package:toystorey/screen/SignUpScreen.dart';
+import 'package:chandran_steels/screen/SignInScreen.dart';
+import 'package:chandran_steels/screen/SignUpScreen.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../app_localizations.dart';

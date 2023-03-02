@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "854828180567",
-    "project_id": "toystorey-aa96a",
-    "storage_bucket": "toystorey-aa96a.appspot.com"
+    "project_number": "730117927630",
+    "project_id": "chadransteels",
+    "storage_bucket": "chadransteels.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:854828180567:android:e1a2c8823191753d122f12",
+        "mobilesdk_app_id": "1:730117927630:android:f93db38ae4507096e4d69f",
         "android_client_info": {
-          "package_name": "com.toystorey.hashseven"
+          "package_name": "com.chandran_steels"
         }
       },
       "oauth_client": [
         {
-          "client_id": "854828180567-3q8an6fn6ntpusiebl2dfmk3n6ehpmf0.apps.googleusercontent.com",
+          "client_id": "730117927630-c3trpj46edo3gdu4b01v08dntn9jnig5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAVnkeNzxyppO-0fWDAB40IW3obLTkwRTs"
+          "current_key": "AIzaSyBePSNXn--1QLTA9iEAYEDNNLvI8wnqGvM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "854828180567-3q8an6fn6ntpusiebl2dfmk3n6ehpmf0.apps.googleusercontent.com",
+              "client_id": "730117927630-0ga3gphupaopgu011mp0dhqunroubc7h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

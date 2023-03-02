@@ -41,7 +41,7 @@ android {
         configurations.all {
             resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
         }
-        applicationId "com.toystorey.hashseven"
+        applicationId "com.chandran_steels"
         minSdkVersion 21
         targetSdkVersion 32
         versionCode 19

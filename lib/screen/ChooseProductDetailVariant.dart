@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:toystorey/app_localizations.dart';
-import 'package:toystorey/utils/AppBarWidget.dart';
-import 'package:toystorey/screen/DashBoardScreen.dart';
-import 'package:toystorey/utils/app_Widget.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/app_localizations.dart';
+import 'package:chandran_steels/utils/AppBarWidget.dart';
+import 'package:chandran_steels/screen/DashBoardScreen.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../main.dart';
@@ -108,7 +108,7 @@ class ChooseProductDetailVariantState extends State<ChooseProductDetailVariant> 
       child: Stack(
         fit: StackFit.expand,
         children: [
-          Image.asset('images/toystorey/productDetail_$code.jpg', fit: BoxFit.cover, alignment: Alignment.topCenter).cornerRadiusWithClipRRect(8),
+          Image.asset('images/chandran_steels/productDetail_$code.jpg', fit: BoxFit.cover, alignment: Alignment.topCenter).cornerRadiusWithClipRRect(8),
           AnimatedContainer(duration: Duration(milliseconds: 800), color: getIntAsync(PRODUCT_DETAIL_VARIANT, defaultValue: 1) == code ? transparentColor : Colors.black45)
               .cornerRadiusWithClipRRect(8),
           AnimatedContainer(

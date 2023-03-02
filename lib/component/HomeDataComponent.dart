@@ -3,15 +3,15 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:toystorey/models/CartModel.dart';
-import 'package:toystorey/models/CategoryData.dart';
-import 'package:toystorey/models/ProductResponse.dart';
-import 'package:toystorey/models/SaleBannerResponse.dart';
-import 'package:toystorey/models/SliderModel.dart';
-import 'package:toystorey/network/rest_apis.dart';
-import 'package:toystorey/utils/common.dart';
-import 'package:toystorey/utils/constants.dart';
-import 'package:toystorey/utils/shared_pref.dart';
+import 'package:chandran_steels/models/CartModel.dart';
+import 'package:chandran_steels/models/CategoryData.dart';
+import 'package:chandran_steels/models/ProductResponse.dart';
+import 'package:chandran_steels/models/SaleBannerResponse.dart';
+import 'package:chandran_steels/models/SliderModel.dart';
+import 'package:chandran_steels/network/rest_apis.dart';
+import 'package:chandran_steels/utils/common.dart';
+import 'package:chandran_steels/utils/constants.dart';
+import 'package:chandran_steels/utils/shared_pref.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 import '../app_localizations.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:nb_utils/nb_utils.dart';
-import 'package:toystorey/utils/app_Widget.dart';
+import 'package:chandran_steels/utils/app_Widget.dart';
 
 class HtmlWidget extends StatelessWidget {
   final String? postContent;

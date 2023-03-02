@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:toystorey/component/VideoFileWidget.dart';
-import 'package:toystorey/component/YouTubeEmbedWidget.dart';
-import 'package:toystorey/models/ProductDetailResponse.dart';
-import 'package:toystorey/utils/constants.dart';
+import 'package:chandran_steels/component/VideoFileWidget.dart';
+import 'package:chandran_steels/component/YouTubeEmbedWidget.dart';
+import 'package:chandran_steels/models/ProductDetailResponse.dart';
+import 'package:chandran_steels/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
 
 class VideoPlayDialog extends StatefulWidget {

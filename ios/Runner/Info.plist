@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Toys Storey</string>
+	<string>Chandran Steels</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIcons</key>
@@ -17,7 +17,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>toystorey</string>
+	<string>chandran_steels</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -38,7 +38,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.toystorey.hashseven</string>
+			<string>com.chandran_steels</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>Store</string>
@@ -52,13 +52,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Toys Storey app requires access to the Camera to upload your profile photo.</string>
+	<string>Chandran Steels app requires access to the Camera to upload your profile photo.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Toys Storey app requires location permission access to get the current location of the user to get whether information. </string>
+	<string>Chandran Steels app requires location permission access to get the current location of the user to get whether information. </string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Toys Storey app requires access to the photo library to upload your profile photo.</string>
+	<string>Chandran Steels app requires access to the photo library to upload your profile photo.</string>
 	<key>Privacy-Location Usage Description</key>
-	<string>Toys Storey app requires location permission access to get the current location of the user to get whether information. </string>
+	<string>Chandran Steels app requires location permission access to get the current location of the user to get whether information. </string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
